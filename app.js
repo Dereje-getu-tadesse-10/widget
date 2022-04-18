@@ -26,7 +26,6 @@ function toggleModale(el, content,style){
 form.addEventListener('click', (e)=>{
     e.preventDefault();
     let inp = input.value;
-    console.log(inp);
     callApi(inp);
 })
 callApi('Paris');
@@ -38,7 +37,6 @@ function callApi(val) {
         return res.json();
     })
     .then((data)=>{
-        console.log(data);
         city.textContent = data.name;
         currentTime.textContent = data.main.temp;
         let src = logo.getAttribute('src')
@@ -46,7 +44,7 @@ function callApi(val) {
         src = `http://openweathermap.org/img/wn/${img}.png`;
         logo.setAttribute('src', src);
         description.textContent = data.weather[0].description;
-        tempMin.textContent = 'Temp Max ' + data.main.temp_min;
-        tempMax.textContent = 'Temp Max ' + data.main.temp_max;
+        tempMin.textContent = 'Temp min ' + data.main.temp_min;
+        tempMax.textContent = 'Temp min ' + data.main.temp_max;
     })
 }
