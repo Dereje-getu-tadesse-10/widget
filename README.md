@@ -1,4 +1,5 @@
-<h1>LE PROJET WIDGET </h1>
+<h1>LE PROJET WIDGET </h1> 
+
 
 <h6>Projet de formation</h6>
 
@@ -9,7 +10,8 @@
 - ### Html ###
 - ### Scss ###
 - ### Ajax ###
-- ### JavaScript ###
+- ### JavaScript ### [![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/)
+
 
 ## ***Voici la maquette figma des widgets :*** ## 
 
