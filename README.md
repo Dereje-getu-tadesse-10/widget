@@ -4,6 +4,13 @@
 
 ### Le projet widget a pour objectif d'intégrer plusieurs "widgets" un widget météo, une calculatrice, un générateur de mot de passe, et une to-do list.
 
+# Techno utilisée :
+
+- ### Html ###
+- ### Scss ###
+- ### Ajax ###
+- ### JavaScript ###
+
 ## ***Voici la maquette figma des widgets :*** ## 
 
 <br></br>
