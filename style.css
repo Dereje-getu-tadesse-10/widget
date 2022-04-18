@@ -232,4 +232,30 @@ main #weather #weather-container .fa-square-xmark {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+main #calculette {
+  position: relative;
+  font-family: "Poppins";
+}
+
+main #calculette .container-title {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: 20px auto;
+  background-color: #E1E1E1;
+  -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  cursor: pointer;
+  font-family: "Poppins";
+  font-weight: bolder;
+}
 /*# sourceMappingURL=style.css.map */

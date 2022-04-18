@@ -11,9 +11,12 @@ const description = document.querySelector('.desc');
 const tempMin = document.querySelector('.tempMin');
 const tempMax = document.querySelector('.tempMax');
 
+// Weather open 
+toggleModale('.container-title','#weather-container','block');
+toggleModale('.fa-square-xmark', '#weather-container','');
+// Calculette open
 
-toggleModale('.container-title','#weather-container','block')
-toggleModale('.fa-square-xmark', '#weather-container','')
+
 function toggleModale(el, content,style){
     el = document.querySelector(el)
     content = document.querySelector(content);

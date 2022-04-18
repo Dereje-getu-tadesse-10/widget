@@ -162,4 +162,23 @@ main{
            }
         }
     }
+
+    #calculette{
+        // margin: 50px auto;
+        position: relative;
+        font-family: $fontPoppins;
+        .container-title{
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            margin:20px auto;
+            background-color: $cardBackground;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+            cursor: pointer;
+            font-family: $fontPoppins;
+            font-weight: bolder;
+        }
+    }
 }
