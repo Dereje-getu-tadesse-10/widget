@@ -17,7 +17,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
+    background-color: $cardBackground;
+    font-family: $fontPoppins;
     nav{
         width: 90%;
         display: flex;
@@ -30,6 +31,14 @@ header{
             display: flex;
             justify-content: flex-end;
             gap:50px;
+
+            a{
+                font-size: 16px;
+                color: $fontColor;
+            }
         }
+    }
+    .fa-bars{
+        display: none;
     }
 }
