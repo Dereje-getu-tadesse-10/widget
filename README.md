@@ -17,19 +17,19 @@
 ## ***Voici la maquette figma des widgets :*** ## 
 
 <br></br>
-- ## ***Widget météo*** ##
+- ### ***Widget météo*** ###
 
 ![widget météo](https://i.ibb.co/k0mt6SC/Capture-d-e-cran-2022-04-18-a-11-18-26.png)
 
-- ## ***Widget calculatrice*** ##
+- ### ***Widget calculatrice*** ###
 
 ![widget météo](https://i.ibb.co/Lv052wP/Capture-d-e-cran-2022-04-18-a-11-18-39.png)
 
-- ## ***Widget Générateur de mot de passe*** ##
+- ### ***Widget Générateur de mot de passe*** ###
 
 ![widget météo](https://i.ibb.co/mzSr63N/Capture-d-e-cran-2022-04-18-a-11-38-16.png)
 
-- ## ***Widget Todolist*** ##
+- ### ***Widget Todolist*** ###
 
 ![widget météo](https://i.ibb.co/DDj6HnN/Capture-d-e-cran-2022-04-18-a-11-19-16.png)
 
