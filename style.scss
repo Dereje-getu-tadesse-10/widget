@@ -180,5 +180,36 @@ main{
             font-family: $fontPoppins;
             font-weight: bolder;
         }
+        #calculette-container{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: $cardBackground;
+            .screen{
+                width: 90%;
+                margin: 10px auto;
+                padding: 5px;
+                height: 45px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-radius: 5px;
+                background-color: #ffffff;
+            }
+
+            #touches-container{
+                width: 90%;
+                margin: auto;
+                .test{
+                    height: 50px;
+                    display: flex;
+                    justify-content: space-evenly;
+                    button{
+                        width: 100%;
+                    }
+                }
+            }
+        }
     }
 }
