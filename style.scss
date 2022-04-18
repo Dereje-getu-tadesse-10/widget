@@ -37,9 +37,6 @@ header{
             }
         }
     }
-    .fa-bars{
-        display: none;
-    }
 }
 
 @media screen and (max-width: 600px) {
@@ -155,6 +152,13 @@ main{
             align-items: center;
             width: 80%;
             margin: 20px auto;
+           }
+           .fa-square-xmark{
+               position: absolute;
+               bottom: 0;
+               right: 0;
+               font-size: 1.5rem;
+               cursor: pointer;
            }
         }
     }

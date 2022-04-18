@@ -57,10 +57,6 @@ header nav ul a {
   color: #1e1e1e;
 }
 
-header .fa-bars {
-  display: none;
-}
-
 @media screen and (max-width: 600px) {
   nav {
     padding: 10px;
@@ -227,5 +223,13 @@ main #weather #weather-container .tempMinAndMax {
           align-items: center;
   width: 80%;
   margin: 20px auto;
+}
+
+main #weather #weather-container .fa-square-xmark {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
