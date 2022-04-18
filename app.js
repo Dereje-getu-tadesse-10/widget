@@ -45,6 +45,6 @@ function callApi(val) {
         logo.setAttribute('src', src);
         description.textContent = data.weather[0].description;
         tempMin.textContent = 'Temp min ' + data.main.temp_min;
-        tempMax.textContent = 'Temp min ' + data.main.temp_max;
+        tempMax.textContent = 'Temp max ' + data.main.temp_max;
     })
 }
