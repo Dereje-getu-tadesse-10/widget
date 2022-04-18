@@ -113,4 +113,119 @@ main #home p {
   font-weight: bolder;
   font-size: 1.3rem;
 }
+
+main #weather {
+  margin: 50px auto;
+  position: relative;
+  font-family: "Poppins";
+}
+
+main #weather .container-title {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: 20px auto;
+  background-color: #E1E1E1;
+  -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  cursor: pointer;
+  font-family: "Poppins";
+  font-weight: bolder;
+}
+
+main #weather #weather-container {
+  width: 100%;
+  background-color: #E1E1E1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  border: 5px;
+  border-radius: 5px;
+  display: none;
+}
+
+main #weather #weather-container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+main #weather #weather-container form input {
+  height: 100%;
+  border: none;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px 0 0 5px;
+}
+
+main #weather #weather-container form button {
+  height: 100%;
+  width: 140px;
+  border: none;
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
+}
+
+main #weather #weather-container .outApiCity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  margin: 20px auto;
+}
+
+main #weather #weather-container .currentTimeImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  margin: 20px auto;
+}
+
+main #weather #weather-container .tempMinAndMax {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  margin: 20px auto;
+}
 /*# sourceMappingURL=style.css.map */
