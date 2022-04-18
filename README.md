@@ -1,6 +1,6 @@
-![Build with](https://forthebadge.com/images/badges/built-with-love.svg)
-<h1>LE PROJET WIDGET </h1> 
-[![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/) 
+![Build with](https://forthebadge.com/images/badges/built-with-love.svg) 
+
+<h1>LE PROJET WIDGET </h1>  
 
 <h6>Projet de formation</h6>
 
