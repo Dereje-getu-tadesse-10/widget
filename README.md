@@ -1,5 +1,6 @@
+![Build with](https://forthebadge.com/images/badges/built-with-love.svg)
 <h1>LE PROJET WIDGET </h1> 
-
+[![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/) 
 
 <h6>Projet de formation</h6>
 
@@ -10,7 +11,7 @@
 - ### Html ###
 - ### Scss ###
 - ### Ajax ###
-- ### JavaScript ### [![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/)
+- ### JavaScript ### 
 
 
 ## ***Voici la maquette figma des widgets :*** ## 
